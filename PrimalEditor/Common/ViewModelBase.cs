@@ -9,7 +9,7 @@ using System.Threading.Tasks;
 namespace PrimalEditor
 {
     [DataContract(IsReference =true)]
-    internal class ViewModelBase : INotifyPropertyChanged
+    public class ViewModelBase : INotifyPropertyChanged
     {
         public event PropertyChangedEventHandler PropertyChanged;
 
